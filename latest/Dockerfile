@@ -5,6 +5,7 @@ RUN yum-config-manager --add-repo  https://download.docker.com/linux/centos/dock
 		git \
 		java-1.8.0-openjdk  \
 		java-1.8.0-openjdk-devel \
+		rpm-build \
 		ruby \
 		curl \ 
                 docker-ce && \
