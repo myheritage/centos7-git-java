@@ -13,4 +13,4 @@ RUN yum-config-manager --add-repo  https://download.docker.com/linux/centos/dock
 
 COPY jenkins-docker-entrypoint.sh /usr/local/bin/
 
-ENTRYPOINT ["jenkins-docker-entrypoint.sh"]
+ENTRYPOINT []
