@@ -9,6 +9,7 @@ RUN yum-config-manager --add-repo  https://download.docker.com/linux/centos/dock
 		ruby \
 		ruby-devel \
 		curl \ 
+		gcc \
                 docker-ce && \
 		yum clean all
 
