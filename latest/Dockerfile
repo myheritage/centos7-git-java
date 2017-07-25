@@ -9,7 +9,7 @@ RUN yum-config-manager --add-repo  https://download.docker.com/linux/centos/dock
 		ruby \
 		ruby-devel \
 		curl \
-		zlib-devel \
+		zlib \
 		gcc \
 		libxml2-devel \
 		zlib-devel \
