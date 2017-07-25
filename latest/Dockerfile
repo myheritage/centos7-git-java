@@ -8,8 +8,13 @@ RUN yum-config-manager --add-repo  https://download.docker.com/linux/centos/dock
 		rpm-build \
 		ruby \
 		ruby-devel \
-		curl \ 
+		curl \
+		zlib-devel \
 		gcc \
+		libxml2-devel \
+		zlib-devel \
+		libxslt-devel \
+		make \
                 docker-ce && \
 		yum clean all
 
